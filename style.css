@@ -1,0 +1,215 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif; 
+}
+.container{
+    height: 100vh;
+    background:linear-gradient(to left , rgba(0,0,0,0.6) , rgba(0,0,0,0.5)) , url("./bg-img.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 15%;
+}
+.btn-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+#logo{
+  width: 18%;
+}
+.btn-lang{
+    border: 1px solid white;
+    background : transparent;
+    padding-block: 10px;
+    padding-inline: 20px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-width: 2px;
+}
+.lang-icon{
+    padding: 2px;
+    margin-right: 5px;
+}
+.caret{
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+.signin-btn{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding-block: 13px;
+    padding-inline: 15px;
+    border: none;
+}
+.inner-content{
+    color: white;
+    padding-block: 150px;
+    padding-inline: 300px;
+    text-align: center;
+}
+.inner-content h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}.inner-content h3{
+
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: normal;
+}
+.inner-content h5{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.getstarted{
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding-inline: 90px;
+ gap: 10px;
+ 
+}
+.getstarted input{
+    width: 55%;
+    height: 50px;
+    background-color:rgb(0,0,0,0.5);
+    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-inline: 10px;
+    padding-block: 28px;
+}
+.getstarted button{
+    width: 40%;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding-block: 13px;
+    padding-inline: 10px;
+    font-size: 25px;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    background-color:rgb(35, 35, 35);
+}
+.first-section{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 60px;
+    color: white;
+    padding-inline: 100px;
+    padding-block: 100px;
+}
+.second-section{
+    flex-direction: row-reverse;
+    gap: 180px;
+}
+.tv-img{
+    width: 100%;
+}
+.tv-img2{
+    width: 100%;
+}
+.first-section-content h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.faq{
+    background-color: black;
+    color:white ;
+    padding-block: 80px;
+}
+.faq-parent li{
+    background-color:rgb(66, 66, 66);
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding-inline: 10px;
+    padding-block: 20px;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    margin-right: 100px;
+}
+.faq h1{
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.faq-parent li:hover {
+   background-color: rgb(45, 45, 45);
+}
+.membership-content{
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 20px;
+}
+.getstarted1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    
+   }
+   .getstarted1 input{
+       width: 35%;
+       height: 50px;
+       background-color:rgb(0,0,0,0.5);
+       border: none;
+       border: 1px solid white;
+       border-radius: 5px;
+       padding-inline: 10px;
+       padding-block: 28px;
+   }
+   .getstarted1 button{
+       background-color: red;
+       color: white;
+       border-radius: 5px;
+       border: none;
+       padding-block: 13px;
+       padding-inline: 10px;
+       font-size: 25px;
+   }
+   footer{
+    background-color: black;
+    height: 60vh;
+    width: 100%;
+   }
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 50px;
+}
+.footer-list1 , .footer-list2,.footer-list3,.footer-list4{
+    color: white;
+    font-size: 15px;
+    list-style: none;
+    padding-block: 100px; 
+    padding-inline: 40px;
+    margin-bottom: 10px;
+}
+
